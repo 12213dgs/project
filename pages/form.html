@@ -1,0 +1,60 @@
+<!-- НЕ ЗАБЫТЬ ПРО СОЧЕТАНИЕ КЛАВИШ CTRL + S - ВСЕГДА НАЖИМАТЬ ПОСЛЕ КАЖДОГО ИЗМЕНЕНИЯ КОДА -->
+ <!-- Постоянно писать в terminal - npm run build-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link href="../public/output.css" rel="stylesheet">
+ </head>
+ <body>
+    <header class="bg-[#A9A9A9] py-4 md:py-6 lg:py-8 xl:py-0 xl:h-[92px] shadow-md w-[100%]">
+        <div class="flex container mx-auto px-4 justify-between">
+            <div class="flex items-center h-[92px]">
+                <div class="text-[#fff] text-2xl font-bold bg-[#333]">Оформление заказа</div>
+            </div>
+            <a target="_blank" href="/index.html" class="py-[20px]"> 
+                <img src="/image 3.svg" class="mx-[20px]">
+            </a>
+            
+
+            
+        </div>
+    </header>
+     <script src="../main.js"></script>
+
+     <main>
+        <div class="w-full max-w-[1200px] m-auto">
+            <div class="text-center text-3xl md:text-4xl lg:text-[45px] text-[#212121] font-bold mt-8 md:mt-12 lg:mt-16">Введите данные для получения билета</div>
+        </div>
+        <form class="mt-4 md:mt-6 max-w-full md:max-w-sm mx-auto">
+            <div class="mb-4 md:mb-5">
+                <input type="text" id="name" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Имя и фамилия" required />
+            </div>
+            <div class="mb-4 md:mb-5">
+                <input type="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="e-mail" required />
+            </div>
+            <div class="mb-4 md:mb-5">
+                <input type="tel" id="tel" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Номер телефона" required />
+            </div>
+            <div class="mb-4 md:mb-5">
+                <input type="text" id="text" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Номер карты" required />
+            </div>
+
+            <div class="flex justify-center py-4 space-x-2 mb-4 md:mb-5">
+                <div class="mb-4 md:mb-5">
+                    <input type="text" id="text" class="w-[305px] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Срок действия" required />
+                </div>
+                <div class="mb-4 md:mb-5">
+                    <input type="text" id="text" class="w-[245px] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#A9A9A9] dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Код" required />
+                </div>
+            </div>
+        <a target="_blank" href="/self.pdf" class="py-[20px]"> 
+            <button type="submit" class="w-full flex items-center justify-center text-white bg-[#1F4C60] hover:bg-[#1F4C60] focus:ring-4 focus:outline-none focus:ring-[#1F4C60] font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#1F4C60] dark:hover:bg-[#1F4C60] dark:focus:ring-[#1F4C60] mx-auto">Далее</button>   
+        </a>
+        </form>
+     </main>
+ </body>
+ </html>
+ 
